@@ -1,0 +1,1 @@
+In VHDL, a subtle error can occur when using signals with different types in concurrent signal assignments.  If a signal is assigned a value of a different type, and no implicit or explicit type conversion is performed, the simulation might not show an immediate error but produce unexpected results. This can be hard to debug because the compiler might not always issue a warning.
